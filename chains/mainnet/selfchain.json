@@ -1,0 +1,19 @@
+{
+    "chain_name": "Selfchain",
+    "api": ["https://api-t.selfchain.nodestake.org"],
+    "rpc": ["https://rpc-selfchain.vinjan.xyz"],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.7",
+    "coin_type": "118",
+    "min_tx_fee": "500",
+    "addr_prefix": "self",
+    "logo": "/logos/selfchain.png",
+    "assets": [
+      {
+        "base": "uself",
+        "symbol": "SELF",
+        "exponent": "6",
+        "logo": "/logos/selfchain.png"
+      }
+    ]
+  }

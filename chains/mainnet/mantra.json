@@ -1,0 +1,19 @@
+{
+    "chain_name": "Mantra",
+    "api": ["https://mantra-testnet-api.itrocket.net"],
+    "rpc": ["https://mantra-testnet-rpc.itrocket.net"],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.7",
+    "coin_type": "118",
+    "min_tx_fee": "500",
+    "addr_prefix": "aum",
+    "logo": "/logos/mantra.png",
+    "assets": [
+      {
+        "base": "uaum",
+        "symbol": "AUM",
+        "exponent": "6",
+        "logo": "/logos/mantra.png"
+      }
+    ]
+  }

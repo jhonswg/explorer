@@ -1,0 +1,19 @@
+{
+    "chain_name": "Side-Chain",
+    "api": ["https://side-testnet-api.itrocket.net"],
+    "rpc": ["https://side-testnet-rpc.itrocket.net"],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.7",
+    "coin_type": "118",
+    "min_tx_fee": "500",
+    "addr_prefix": "side",
+    "logo": "/logos/side.png",
+    "assets": [
+      {
+        "base": "uside",
+        "symbol": "SIDE",
+        "exponent": "6",
+        "logo": "/logos/side.png"
+      }
+    ]
+  }
