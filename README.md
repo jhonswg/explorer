@@ -2,7 +2,7 @@
 
 ![Ping Wallet](./public/logo.svg)
 
-<h1>Jhonswg Node Dashboard</h1>
+<h1>Jhonswg Dashboard</h1>
 
 **Ping Node Dashboard is not only an explorer but also a wallet and more ... 🛠**
 
