@@ -12,7 +12,7 @@
     "coin_type": "118",
     "min_tx_fee": "5000",
     "addr_prefix": "self",
-    "logo": "/logos/self.png",
+    "logo": "https://explorer.nodex.one/logos/self.jpg",
     "keplr_features": ["ibc-transfer", "ibc-go"],
     "theme_color": "#6926ff",
     "assets": [{
@@ -20,6 +20,6 @@
         "symbol": "SLF",
         "exponent": "6",
         "coingecko_id": "self-chain",
-        "logo": "/logos/self.png"
+        "logo": "https://explorer.nodex.one/logos/self.jpg"
     }]
 }
