@@ -1,0 +1,25 @@
+{
+    "chain_name": "empeiria",
+    "api": [
+      {"provider": "Jhonswg", "address": "https://api-empeiria.jhonswg.com"}
+    ],
+    "rpc": [
+      {"provider": "Jhonswg", "address": "https://rpc-impeiria.jhonswg.com"}
+    ],
+    "sdk_version": "0.45.15",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "empeiria",
+    "logo": "/logos/empe.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#56CDFC",
+    "assets": [
+      {
+        "base": "emped",
+        "symbol": "EMPE",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "/logos/empe.png"
+      }
+    ]
+  }
