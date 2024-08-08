@@ -14,7 +14,7 @@
     "coin_type": "118",
     "min_tx_fee": "5000",
     "addr_prefix": "initia",
-    "logo": "https://explorer.nodex.one/logos/initia.png",
+    "logo": "https://explorer.jhonswg.com/logos/initia.png",
     "keplr_features": ["ibc-transfer", "ibc-go"],
     "theme_color": "#56CDFC",
     "assets": [
@@ -23,7 +23,7 @@
         "symbol": "INIT",
         "exponent": "6",
         "coingecko_id": "",
-        "logo": "https://explorer.nodex.one/logos/initia.png"
+        "logo": "https://explorer.jhonswg.com/logos/initia.png"
       }
     ]
   }
