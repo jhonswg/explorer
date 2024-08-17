@@ -2,11 +2,11 @@
     "chain_name": "symphony",
     "api": [
       {"provider": "Kleomedes", "address": "https://symphony-api.kleomedes.network"},
-      {"provider": "jhonswg", "address": "https://api-symphony.jhonswg.com"}
+      {"provider": "jhonswg", "address": "https://api-symphony.jhonswg.com:443"}
     ],
     "rpc": [
       {"provider": "Kleomedes", "address": "https://symphony-rpc.kleomedes.network/"},
-      {"provider": "jhonswg", "address": "https://rpc-symphony.jhonswg.com"}
+      {"provider": "jhonswg", "address": "https://rpc-symphony.jhonswg.com:443"}
     ],
     "sdk_version": "0.45.15",
     "coin_type": "118",
