@@ -1,11 +1,11 @@
 {
     "chain_name": "symphony",
     "api": [
-      {"provider": "polkachu.com", "address": "https://symphony-testnet-api.polkachu.com"},
+      {"provider": "Kleomedes", "address": "https://symphony-api.kleomedes.network"},
       {"provider": "jhonswg", "address": "https://api-symphony.jhonswg.com"}
     ],
     "rpc": [
-      {"provider": "polkachu.com", "address": "https://symphony-testnet-rpc.polkachu.com"},
+      {"provider": "Kleomedes", "address": "https://symphony-rpc.kleomedes.network/"},
       {"provider": "jhonswg", "address": "https://rpc-symphony.jhonswg.com"}
     ],
     "sdk_version": "0.45.15",
