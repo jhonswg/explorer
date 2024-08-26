@@ -1,10 +1,12 @@
 {
     "chain_name": "symphony",
     "api": [
-      {"provider": "Kleomedes", "address": "https://symphony-api.kleomedes.network"}
+      {"provider": "Kleomedes", "address": "https://symphony-api.kleomedes.network"},
+      {"provider": "CryptoNodeID", "address": "https://symphony-testnet-api.cryptonode.id"}
     ],
     "rpc": [
-      {"provider": "Kleomedes", "address": "https://symphony-rpc.kleomedes.network/"}
+      {"provider": "Kleomedes", "address": "https://symphony-rpc.kleomedes.network/"},
+      {"provider": "CryptoNodeID", "address": "https://symphony-testnet-rpc.cryptonode.id/"}
     ],
     "sdk_version": "0.45.15",
     "coin_type": "118",
