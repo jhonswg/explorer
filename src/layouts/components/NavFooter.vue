@@ -6,15 +6,15 @@
     <div class="flex flex-1">
       &copy;&nbsp;
       {{ new Date().getFullYear() }}&nbsp;
-      Made With&nbsp;
+      Modified With&nbsp;
       <img src="../../assets/images/heart.svg" />&nbsp;
       By&nbsp;
       <a
         class="link link-primary no-underline"
-        href="https://ping.pub"
+        href="https://jhonswg.com"
         target="_blank"
         rel="noopener noreferrer"
-        >Ping.pub</a
+        >Jhonswg</a
       >
     </div>
     <div

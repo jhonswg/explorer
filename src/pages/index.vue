@@ -39,7 +39,7 @@ const chainStore = useBlockchain()
 </script>
 <template>
   <div class="">
-    <div class="flex md:!flex-row flex-col items-center justify-center mb-6 mt-14 gap-2">
+    <div class="flex flex-col items-center justify-center mb-6 mt-14 gap-2">
       <!-- <div class="w-16 rounded-full">
         <svg version="1.0" xmlns="http://www.w3.org/2000/svg" 
           viewBox="0 0 150.000000 132.000000"
@@ -61,15 +61,14 @@ const chainStore = useBlockchain()
           </g>
         </svg>
       </div> -->
-      <h1 class="text-emerald-500  text-3xl md:!text-6xl font-bold ">
+      <h1 class="text-emerald-500 text-3xl md:!text-6xl font-bold  ">
         {{ $t('pages.title') }}
       </h1>
+      <div class="badge badge-primary badge-outline text-lg px-4 py-3 md:!mt-2  text-sky-500 ">
+       {{  $t('pages.badge')}}
+      </div>
     </div>
-    <div class="text-center text-base text-base">
-      <p class="mb-1">
-        {{ $t('pages.slogan') }}
-      </p>
-    </div>
+
     <div
       v-if="dashboard.status !== LoadingStatus.Loaded"
       class="flex justify-center"
@@ -77,21 +76,6 @@ const chainStore = useBlockchain()
       <progress class="progress progress-info w-80 h-1"></progress>
     </div>
 
-    <div v-if="featured.length>0" class="text-center text-sky-400 mt-6 text-primary">
-      <h2 class="mb-6"> Featured Blockchains 🔥 </h2>
-    </div>
-
-    <div v-if="featured.length>0"
-      class="grid grid-cols-1 gap-4 mt-6 md:!grid-cols-3 lg:!grid-cols-4 2xl:!grid-cols-5"
-    >
-    <ChainSummary
-        v-for="(chain, index) in featured"
-        :key="index"
-        :name="chain.chainName"
-      />
-    </div>
-
-    <AdBanner id="home-banner-ad" unit="banner" width="970px" height="90px" />
 
     <div class="text-center text-sky-400 mt-6 text-primary">
       <h2 class="mb-6">{{ $t('pages.description') }}</h2>
