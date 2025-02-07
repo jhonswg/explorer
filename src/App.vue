@@ -2,6 +2,7 @@
 import { themeChange } from 'theme-change';
 import { onMounted } from 'vue';
 import TxDialog from './components/TxDialog.vue';
+import { Analytics } from '@vercel/analytics/react';
 
 onMounted(() => {
   themeChange(false);
@@ -13,4 +14,5 @@ onMounted(() => {
     <RouterView />
     <TxDialog />
   </div>
+  <Analytics />
 </template>
