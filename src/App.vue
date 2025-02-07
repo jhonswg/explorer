@@ -14,5 +14,4 @@ onMounted(() => {
     <RouterView />
     <TxDialog />
   </div>
-  <Analytics />
 </template>
