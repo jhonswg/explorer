@@ -1,10 +1,12 @@
 {
     "chain_name": "empeiria",
     "api": [
-      {"provider": "Jhonswg", "address": "https://api-empeiria.jhonswg.com"}
+      {"provider": "Polkachu", "address": "https://empe-testnet-api.polkachu.com"},
+      {"provider": "Sychonix", "address": "https://api-empeiria-t.sychonix.com"}
     ],
     "rpc": [
-      {"provider": "Jhonswg", "address": "https://rpc-impeiria.jhonswg.com"}
+      {"provider": "Polkachu", "address": "https://empe-testnet-rpc.polkachu.com"},
+      {"provider": "Sychonix", "address": "https://rpc-empeiria-t.sychonix.com"}
     ],
     "sdk_version": "0.45.15",
     "coin_type": "118",
